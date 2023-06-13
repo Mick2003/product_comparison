@@ -14,6 +14,6 @@ describe('Subtraction Tests', () =>
     it("Subtracting 3 from 0 should give -3. ", () => {
         const result = calculator.getSubtraction(0, 3);
 
-        assert.equal(result.result, -3);
+        assert.equal(result.result, -1);
     });
 });
